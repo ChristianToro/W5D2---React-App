@@ -15,7 +15,7 @@ Before you begin, ensure you have [Node.js](Nodejs.org) installed on your system
 
 1. Clone the repository to your machine: 
 ```bash
-git clone https://github.com/ChristianToro/
+git clone https://github.com/ChristianToro/W5D2---React-App.git
 ```
 2. Navigate to the project directory:
 ```bash
