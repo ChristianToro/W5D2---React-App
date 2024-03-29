@@ -1,6 +1,61 @@
-# Getting Started with Create React App
+# Book Review - A React App Adventure
+###### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+The Book Review App is a React-based web application designed to provide users with insightful reviews on a wide array on content areas, enhancing their reading experience and aiding in the discovery of new literature.
+
+### Getting Started
+
+#### Prerequisites
+Before you begin, ensure you have [Node.js](Nodejs.org) installed on your system.
+
+
+### Setting up and Running Locally
+
+1. Clone the repository to your machine: 
+```bash
+git clone https://github.com/ChristianToro/
+```
+2. Navigate to the project directory:
+```bash
+cd React-Project
+```
+3. Install the necessary dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm start
+```
+
+## Project Structure and Organization
+
+ - `public/`: Contains the HTML file and public assets.
+ - `src/`:
+    - `components/`: Contains all React components used in the application, such as Navbar.js, Review.js, and Home.js.
+    - `assets/`: Stores static assets like images used in the reviews.
+    - `App.js`: The main React component that includes routing and layout.
+    - `index.js`: The entry point for the React application.
+    - `reviewsData.js`: A data file containing the reviews displayed in the application.
+    - `App.css`: Contains global styles for the application.
+- `package.json`: contains project dependencies
+
+## Key Components
+- Navbar: Provides navigation links, allowing users to easilt switch between different views of the app
+- Review: A component that displays individual book reviews, including book title, author, review text, and an image.
+- Home: Servers as the landing page, introducing the purpose and features of the application.
+
+### External Libraries and Dependencies
+- [React Router](https://reactorrouter.com/en/main): Utilized for handling routing within the application.
+
+
+### Additional Information
+This project is designed ith expandability in mind, allowing for the addition of more reviews, incorporation of user-generated content, implementation of a database, and further development of the UI/UX. 
+
+
+# Supplementary Information, Courtesy of Create-React-App
 
 ## Available Scripts
 
@@ -14,10 +69,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
